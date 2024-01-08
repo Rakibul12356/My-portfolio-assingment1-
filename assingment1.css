@@ -23,3 +23,22 @@
     padding: 0px 345px 180px 340px;
     
 }
+.banner-containt{
+    border:1px solid white;
+    margin: 200px;
+    width: 1600px;
+    height: 733px;
+    text-align: center;
+    font-family: Inter;
+}
+.banner-heading{
+    color: #F00;
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-info{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
+}
