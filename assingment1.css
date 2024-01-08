@@ -1,3 +1,6 @@
+/*body{
+    margin: 50%;
+}*/
 /* header-banner section styles*/
 .banner-head{
     border: 1px solid;
@@ -83,4 +86,15 @@ font-weight: 400;
 line-height: 30px; 
 padding-left: 120px;
 padding-right: 180px;
+}
+.colum-button{
+    margin-left: 150px;
+   
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
 }
