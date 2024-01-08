@@ -1,23 +1,23 @@
 /* header-banner section styles*/
 .banner-head{
-    border: 0px solid;
+    border: 1px solid;
     width: 1300px;
     height: 600px;
-    background-image: url('../images/Banner image.png');
+    background-image: url('/images/Banner\ Image.png');
     margin: 50px 250px;
     font-family: Merriweather;
     text-align: center;
     border-radius:20px ;
 }
 .banner-title{
-    /*color: #FFF;*/
+    color: #FFF;
     font-weight: 400;
     padding: 170px 450px 0px 450px ;
     font-size: 30px;
 }
 
 .banner-section{
-  /*  color: #FFF;*/
+   color: #FFF;
     font-size: 75px;
     font-weight: 900;
     padding: 0px 345px 180px 340px;
