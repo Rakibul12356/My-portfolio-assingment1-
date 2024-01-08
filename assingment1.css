@@ -10,14 +10,14 @@
     border-radius:20px ;
 }
 .banner-title{
-    color: #FFF;
+    /*color: #FFF;*/
     font-weight: 400;
     padding: 170px 450px 0px 450px ;
     font-size: 30px;
 }
 
 .banner-section{
-    color: #FFF;
+  /*  color: #FFF;*/
     font-size: 75px;
     font-weight: 900;
     padding: 0px 345px 180px 340px;
@@ -30,6 +30,7 @@
     height: 733px;
     text-align: center;
     font-family: Inter;
+    border-radius: 5px;
 }
 .banner-heading{
     color: #F00;
@@ -41,4 +42,9 @@
     font-size: 24px;
     font-weight: 500;
     font-family: Inter;
+}
+.banner-description{
+    color: #070211;
+    font-size: 48px;;
+    font-weight: 700;                
 }
