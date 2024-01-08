@@ -3,16 +3,17 @@
     border: 1px solid;
     width: 1300px;
     height: 600px;
-    background-image: url('/images/Banner\ Image.png');
     margin: 50px 250px;
     font-family: Merriweather;
     text-align: center;
     border-radius:20px ;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-image: url('/images/Banner\ Image.png');
 }
 .banner-title{
     color: #FFF;
     font-weight: 400;
-    padding: 170px 450px 0px 450px ;
+    padding: 110px 450px 0px 450px ;
     font-size: 30px;
 }
 
@@ -20,7 +21,7 @@
    color: #FFF;
     font-size: 75px;
     font-weight: 900;
-    padding: 0px 345px 180px 340px;
+    padding: 0px 345px 250px 340px;
     
 }
 .banner-containt{
@@ -47,4 +48,39 @@
     color: #070211;
     font-size: 48px;;
     font-weight: 700;                
+}
+/*main section*/
+.colum{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    width: 1320px;
+    height: 600px;
+    background-image: url('/images/Vectorrr.png');
+    border-radius: 5px;
+    margin: 50px 250px;
+    
+}
+/*.colum-title{
+    padding-left: 120px;
+}*/
+.colum-heading{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+    padding-left: 120px ;
+    padding-right: 250px;
+}
+.colum-description{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+padding-left: 120px;
+padding-right: 180px;
 }
