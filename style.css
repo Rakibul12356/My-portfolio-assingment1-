@@ -308,7 +308,7 @@ padding-bottom: 30px;
 }
 /*subscribe section*/
 .suscribe{
-    border: 1px solid;
+    border: 1px solid white;
     width: 1320px;
     height: 616px;
     flex-shrink: 0;
@@ -338,4 +338,34 @@ font-style: normal;
 font-weight: 400;
 line-height: 32px; 
 padding: 0% 16%;
+}
+.subs-btn {
+    width: 151px;
+    height: 53px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color:#F00;
+    color: white;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    position: relative;
+    float: left;
+    margin-right: 489px;
+    margin-top: 01px;
+    display: inline;
+    font-size: 20px;
+}
+input#text{
+    width:300px ;
+    height:53px ;
+    position: relative;
+    display: inline-block;
+    margin-left: 180px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    margin-right: -40px;
+    float: left;
+    font-size: 20px;
+
 }
