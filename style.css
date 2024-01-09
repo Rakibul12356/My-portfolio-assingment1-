@@ -155,10 +155,6 @@ text-transform: capitalize;
 }
 /*End of place date time*/
 /*Coming soon style section*/
-.comingsoon div{
-   /* display: inline-block;*/
-    
-}
 .comingsoon{
     display: flex;
     gap: 50px;
@@ -194,24 +190,79 @@ font-weight: 500;
 .colum-comingsoon-img{
     border: 10px solid red;
     border-radius: 320px;
-    padding: 10px;
-    
+    padding: 10px;   
 }
-
-
 .colum24-header{
     color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 .colum24-des{
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; 
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+/*Holyday sale style section*/
+.holidaysale{
+    border: 1px solid white;
+    margin: 50px 251px;
+    width: 1320px;
+    height: 1535px;
+}
+.holiday-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 0px;
+}
+.holiday-header{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding-top: 0px;
+}
+.holyday-head-sale{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holydaysale-description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    padding: 0px 220px;
+}
+.holysale-img-giftbox{
+    background-image: url('./images/Rectangle 2.png');
+    /*padding-top: 0px;*/
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.holysale-img-giftbox img{
+}
+.holysale-image{
+    padding-left: 750px;
+    padding-top: 190px;
+    padding-bottom: 0px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-image: url('./images/Rectangle 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
