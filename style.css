@@ -369,3 +369,41 @@ input#text{
     font-size: 20px;
 
 }
+footer{
+    width: 1500px;
+height: 709px;
+flex-shrink: 0;
+background: #070211;
+margin-left: 250px;
+border-radius: 30px;
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+display:block; 
+}
+
+.footer-address{
+    text-align: left;
+    padding-top: 120px;
+    padding-left: 30px;
+    padding-right: 1130px;
+    
+}
+.footer-contact{
+    text-align: right;
+    padding-right: 110px;
+    padding-left: 700px;
+}
+.footer-image{
+    padding-left: 600px;
+    padding-top: 100px;
+}
+.copyright{
+    padding-left: 170px;
+}
+.unsubscribe{
+    text-align: right;
+}
